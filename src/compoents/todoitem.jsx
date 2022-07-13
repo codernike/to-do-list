@@ -16,9 +16,9 @@ class TodoItems extends Component {
 		var listItems = todoEntries.map(this.createTasks);
 
 		return(
-
-			<ol className="theList mt-3 bg-gradient form-control ">
-                <li className="mb-2">to-do-tasks</li>
+     
+			<ol className="theList  mt-3 bg-gradient form-control ">
+                <li className="mb-2 w-100 bg-danger text-white">to-do-list</li>
 				{listItems} 
 			</ol>
 		);
